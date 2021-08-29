@@ -52,8 +52,8 @@ If no option is passed, you will get a random string of four characters and corr
 * `size`: 4 // size of random string  
 * `ignoreChars`: '0o1i' // filter out some characters like 0o1i  
 * `noise`: 1 // number of noise lines  
-* `color`: true // characters will have distinct colors instead of grey, true if background option is set  
-* `background`: '#cc9966' // background color of the svg image  
+* `color`: boolean | color // true: characters will have distinct colors; false: random grey; color: exact color
+* `background`: '#cc9966' // background color of the svg image; turns color option to true if false  
 
 This function returns an object that has the following property:
 * `data`: string // svg path data
