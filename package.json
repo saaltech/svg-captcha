@@ -1,6 +1,6 @@
 {
   "name": "svg-captcha",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "generate svg captcha in node.js or express.js",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,9 @@
   },
   "engines": {
     "node": ">=4.x"
+  },
+  "publishConfig": {
+    "registry": "https://npr.saal.ai"
   },
   "license": "MIT",
   "homepage": "https://github.com/saaltech/svg-captcha#readme",

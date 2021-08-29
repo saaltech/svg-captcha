@@ -2,9 +2,6 @@
 
 > generate svg captcha in node.js
 
-## Translations
-[中文](README_CN.md)
-
 ## useful if you
 
 - cannot or do not want to use google recaptcha
