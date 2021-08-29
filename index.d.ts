@@ -28,7 +28,7 @@ declare class ConfigObject {
 	 * if false, captcha will be black and white
 	 * otherwise, it will be randomly colorized
 	 */
-	color?: boolean;
+	color?: boolean | string;
 	/**
 	 * default: false
 	 * if set to true, it will draw with light grey color
